@@ -12,6 +12,7 @@
 		DA93267C2B80784E0074B294 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA93267B2B80784E0074B294 /* Item.swift */; };
 		DA93267E2B8078530074B294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA93267D2B8078530074B294 /* Assets.xcassets */; };
 		DA9326812B8078530074B294 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9326802B8078530074B294 /* Preview Assets.xcassets */; };
+		DA9326882B8079E00074B294 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9326872B8079E00074B294 /* ImagePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		DA93267B2B80784E0074B294 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		DA93267D2B8078530074B294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA9326802B8078530074B294 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA9326872B8079E00074B294 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				DA9326772B80784E0074B294 /* MyCameraApp.swift */,
 				DA9326792B80784E0074B294 /* ContentView.swift */,
+				DA9326872B8079E00074B294 /* ImagePickerView.swift */,
 				DA93267B2B80784E0074B294 /* Item.swift */,
 				DA93267D2B8078530074B294 /* Assets.xcassets */,
 				DA93267F2B8078530074B294 /* Preview Content */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA9326882B8079E00074B294 /* ImagePickerView.swift in Sources */,
 				DA93267A2B80784E0074B294 /* ContentView.swift in Sources */,
 				DA93267C2B80784E0074B294 /* Item.swift in Sources */,
 				DA9326782B80784E0074B294 /* MyCameraApp.swift in Sources */,
@@ -278,6 +282,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MyCamera/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "写真を撮影するためにカメラを利用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -306,6 +311,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MyCamera/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "写真を撮影するためにカメラを利用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
